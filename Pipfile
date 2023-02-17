@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+jupyter = "*"
+coverage = "*"
+pytest = "*"
+pytest-django = "*"
+pytest-cov = "*"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-rest-swagger = "*"
+
+[requires]
+python_version = "3.7"
